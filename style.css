@@ -59,6 +59,7 @@ footer {
 }
 
 .footer-photo {
+   order: -1;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -69,4 +70,5 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
 }
