@@ -65,3 +65,19 @@ footer {
   justify-content: center;
   gap: 15px;
 }
+
+.form-button {
+  display: inline-block;
+  background: #e74c3c;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.form-button:hover {
+  background: #c0392b;
+}
