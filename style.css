@@ -68,16 +68,27 @@ footer {
 
 .form-button {
   display: inline-block;
-  background: #e74c3c;
+  background: linear-gradient(135deg, #e74c3c, #c0392b); /* Gradient effect */
   color: white;
-  padding: 12px 30px;
-  border-radius: 5px;
+  padding: 15px 35px;
+  border-radius: 50px; /* Pill shape */
   text-decoration: none;
   font-weight: bold;
-  margin-top: 15px;
-  transition: background 0.3s;
+  font-size: 18px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3); /* Soft glow */
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 .form-button:hover {
-  background: #c0392b;
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 7px 20px rgba(231, 76, 60, 0.4);
+}
+
+.form-button:active {
+  transform: translateY(1px);
 }
